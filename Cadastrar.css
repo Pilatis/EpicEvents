@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    border: none;
+}
+
+input, label {
+  display: block;
+  width: 100%;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+a{
+    color: rgb(130, 4, 158);
+}
+
+body {
+    padding-top: 20vh;
+    background-image: url(./imgs/pessoas-em-um-festival_1160-736.png);
+    background-size: cover;
+    background-position-y: 0px;
+}
+
+#main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#main-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.flex-box {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+.spacing2 {
+    margin-right: 2%;  
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus {
+    border-color: rgb(196, 13, 13);
+}
+
+input[type="submit"] {
+    background-color: rgb(128, 5, 122);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    width: 460px;
+    height: 40px;
+}
+ 
+#agreement {
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+   display: inline-block;
+   width: auto;
+}
+
+.error-validation {
+    color: rgb(237, 7, 7);
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template {
+    display: none;
+}

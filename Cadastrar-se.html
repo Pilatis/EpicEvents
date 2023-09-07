@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Cadastrar.css">
+</head>
+
+<body>
+
+     <div id="main-container">
+        <h2>Cadastre-se</h2>
+        <form id="register-form">
+            <!-1 parte Email->
+           <div class="full-box spacing2">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="3">
+           </div> 
+           <!- 1 parte final->
+           <!- 2 parte Nome->
+           <div class="half-box spacing">
+            <label for="name">Nome</label>
+            <input type="name" name="name" id="name" placeholder="Digite seu nome">
+           </div> 
+           <!- 2 parte final->
+           <!- 3 parte Sobrenome->
+           <div class="half-box spacing">
+            <label for="lastname">Sobrenome</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Digite seu Sobrenome">
+           </div> 
+           <!- 3 parte final->
+           <!- 4 parte senha->
+           <div class="half-box spacing2">
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+           </div> 
+           <!- 4 parte final->
+           <!- 5 parte Confirmar senha->
+           <div class="half-box spacing">
+            <label for="passconfirmation">Confirme sua senha</label>
+            <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Confirme sua senha">
+           </div> 
+           <!- 5 parte final->
+           <!- 6 parte Termos->
+           <div class="half-box spacing">
+            <input type="checkbox" name="agreement" id="agreement">
+            <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label> 
+           </div> 
+           <!- 6 parte final->
+           <!- 7 parte Registrar->
+           <div class="full-box">
+            <input type="submit" id="btn-submit" value="Registrar">
+           </div> 
+           <!- 7 parte final->
+        </form>
+
+    </div>
+  <p class="error-validation template"></p>
+   <script src="js/scripts.js"></script>
+</body>
+</html>

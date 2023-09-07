@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #ced1d431;
+    background-image: url(img/feche-de-gravacao-de-video-com-smartphone-durante-um-show-imagem-tonificada.jpg);
+    background-size: cover;
+    background-position-y: -80px;
+}
+
+section, footer {
+    padding: 54px 0;
+}
+
+p {
+    color: black;
+}
+
+.main-container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 5%;
+}
+
+.btn {
+    background-color: #4f9cf9;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.;
+}
+
+
+.btn:hover {
+    background-color: rgb(37, 79, 246);
+}
+
+
+
+header {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    color: rgb(253, 253, 253);
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+nav ul a::after {
+    content: "";
+    background-color: brown;
+    height: 3px;
+    width: 0px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.4s;
+}
+
+nav ul a:hover::after {
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text {
+    margin: 150px; 
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1 {
+    font-size: 35px;
+    color: black;
+}
+
+.banner .banner-text p {
+    font-size: 17px;
+    color: azure;
+    font-weight: lighter;
+    margin: 18px 0;
+}
+
